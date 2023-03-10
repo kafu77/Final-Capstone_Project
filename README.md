@@ -1,1 +1,2 @@
-# Final-Capstone_Project
+# **Capstone Project**:
+The capstone project was conducted to showcase the skills developed through a professional Machine Learning and Artificial Intelligence program. The project utilized the Cross-Industry Standard Process for Data Mining (CRISP-DM) methodology, which involves six phases: Business Understanding, Data Understanding, Data Preparation, Modeling, Evaluation, and Deployment. The project aimed to answer a question of interest using various tools and techniques encountered during the program.
