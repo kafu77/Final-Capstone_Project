@@ -36,6 +36,28 @@ Principal Component Analysis (PCA) was used to transform high-dimensional data i
 
 **Note**: The application of PCA resulted in the extraction of 42 components that explained more than 90% of the variance in the data. However, due to limitations in the processing unit of the computer, only 10 of these components were considered for further analysis.
 
+**Result Summary**:
+First only Linear regression and Ridge model were trained and tested against the base model. Both models are performing better than the baseline model, with no significant difference in metrics between training and testing errors, indicating good training and testing performance and the ability to capture important features. The Ridge model has higher r_score on both the training and testing set. The Ridge model has 73% r_score on the training set and 77% on the testing set. But,the Linear regression model takes longer to train. However, they still need some improvments. 
+In addition to Linear Regression and Ridge model, four advanced models (RandomForestRegressor, AdaBoostRegressor, GradientBoostRegressor, and Deep Neural Network) were trained and evaluated. These advanced models outperformed the standard machine learning models and the base model in terms of error and processing time. The RandomForestRegressor had a test mean squared error of 2.005344e+08 and 75% r2_score, but it took longer to train (787.65 seconds). AdaBoostRegressor was faster to train (19.989487 seconds) than RandomForestRegressor, but it had a higher test mean squared error (2.941301e+08) and (63%) r2_score . GradientBoostRegressor had a lower test mean squared error (2.026812e+08)  than AdaBoostRegressor and RandomForestRegressor and a (76%) r2_score , but it took longer to train (181.015442 seconds).
+
+The note concludes that the **Deep Neural Network model** performed well in terms of both errors and processing time. The model has a train mean squared error of 1.007886e+08, a test mean squared error of 1.421397e+08, and a processing time of 3.000000 seconds. Additionally, the model has an 87% and 82% r2_score on the train and test set, which is higher than any other models evaluated.
+
+**Conclusion**: 
+
+As stated above six models have been trained and tested for a specific regression problem, and their performance has been evaluated against a base model. While all models performed well, the deep neural network model outperformed the others in terms of both error and processing time.
+
+The note describes the architecture of the Deep Neural Network model, which consists of 4 hidden layers with different numbers of neurons in each layer. The first hidden layer has 64 neurons, the second has 128 neurons, the third has 256 neurons, and the last hidden layer has 512 neurons with a dropout layer of 0.2. The note also mentions that this model outperformed the others in terms of both error and processing time, making it the best model for the regression problem.
+
+**Finding**:
+Best model: **Deep Neural Network**
+
+**Recommendation**:
+
+The note suggests some possible areas for further study. Specifically, it recommends performing feature engineering such as feature selection, feature extraction, and feature creation to improve model performance. It also suggests selecting the correct number of principal components. Additionally, the note recommends trying out other regression models such as the **Support Vector Machine Regressor** (SVR), Extreme Gradient Boosting Regressor (**XGBRegressor**), and Light Gradient Boosting Machine Regressor  (**LGBMRegressor**). 
+
+
+
+
 
 
 
