@@ -16,4 +16,7 @@ Data Source: https://www.kaggle.com/competitions/house-prices-advanced-regressio
 
 The data for the project was obtained from Kaggle, a popular platform for data science and machine learning. The dataset contains 81 explanatory variables that describe different aspects of residential homes in Ames, Iowa. The data understanding phase of the project involved assessing data availability, collection, granularity, and quality, as well as exploring the data.
 
+ **Data Preparation**:
+The data preparation step involves organizing the data into a structured form, resolving structure errors, removing and correcting incorrect, corrupt, and duplicated data. This is a time-consuming  and heavy lifting task and accounts for almost 80% of the project. Removing outliers is also a part of data preparation that helps to improve model performance.
+
 
