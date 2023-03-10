@@ -49,11 +49,13 @@ As stated above six models have been trained and tested for a specific regressio
 The note describes the architecture of the Deep Neural Network model, which consists of 4 hidden layers with different numbers of neurons in each layer. The first hidden layer has 64 neurons, the second has 128 neurons, the third has 256 neurons, and the last hidden layer has 512 neurons with a dropout layer of 0.2. The note also mentions that this model outperformed the others in terms of both error and processing time, making it the best model for the regression problem.
 
 **Finding**:
-Best model: **Deep Neural Network**
 
-**Recommendation**:
+Based on the results obtained from the evaluation of different machine learning models, it can be concluded that the Deep Neural Network was the best model for this specific problem. It outperformed the other regression models that were trained and evaluated in this project. However, it is important to note that the performance of the model can be affected by various factors such as the size and quality of the dataset, the complexity of the model, and the hyperparameters used. Therefore, it is always recommended to perform extensive testing and evaluation of the models before making any conclusions.
 
-The note suggests some possible areas for further study. Specifically, it recommends performing feature engineering such as feature selection, feature extraction, and feature creation to improve model performance. It also suggests selecting the correct number of principal components. Additionally, the note recommends trying out other regression models such as the **Support Vector Machine Regressor** (SVR), Extreme Gradient Boosting Regressor (**XGBRegressor**), and Light Gradient Boosting Machine Regressor  (**LGBMRegressor**). 
+
+**Recommendation**: 
+
+The note emphasizes the importance of considering various factors that can affect the performance of a model, such as the size and quality of the dataset, the complexity of the model, and the hyperparameters used. Therefore, it is recommended to perform extensive testing and evaluation of the models before drawing any conclusions. Feature engineering techniques such as feature selection, feature extraction, and feature creation can be used to improve model performance. Additionally, the note suggests trying out other regression models such as **Support Vector Machine Regressor** (SVR), Extreme Gradient Boosting Regressor (**XGBRegressor**), and Light Gradient Boosting Machine Regressor  (**LGBMRegressor**).
 
 
 
