@@ -50,7 +50,7 @@ The note describes the architecture of the Deep Neural Network model, which cons
 
 **Finding**:
 
-Based on the results obtained from the evaluation of different machine learning models, it can be concluded that the Deep Neural Network was the best model for this specific problem. It outperformed the other regression models that were trained and evaluated in this project. However, it is important to note that the performance of the model can be affected by various factors such as the size and quality of the dataset, the complexity of the model, and the hyperparameters used. Therefore, it is always recommended to perform extensive testing and evaluation of the models before making any conclusions.
+Based on the results obtained from the evaluation of different machine learning models, it can be concluded that the **Deep Neural Network** was the best model for this specific problem. It outperformed the other regression models that were trained and evaluated in this project. However, it is important to note that the performance of the model can be affected by various factors such as the size and quality of the dataset, the complexity of the model, and the hyperparameters used. Therefore, it is always recommended to perform extensive testing and evaluation of the models before making any conclusions.
 
 
 **Recommendation**: 
