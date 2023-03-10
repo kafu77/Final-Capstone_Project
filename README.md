@@ -19,4 +19,27 @@ The data for the project was obtained from Kaggle, a popular platform for data s
  **Data Preparation**:
 The data preparation step involves organizing the data into a structured form, resolving structure errors, removing and correcting incorrect, corrupt, and duplicated data. This is a time-consuming  and heavy lifting task and accounts for almost 80% of the project. Removing outliers is also a part of data preparation that helps to improve model performance.
 
+The project only kept features that have below 10% missing values, as the features with more than 10% missing values, are not helpful for the data exploratory analysis and are discared.
+
+**Modeling**
+
+The Modeling phase is the phase in which machine learning models are trained and tested to select the best model that can solve the business problem. This phase involves the training of various regression models, ensemble regressors, and deep neural networks.
+
+The final capstone project involved training and testing several regression models, including Linear Regression, Ridge Regression, RandomForestRegressor, AdaBoostRegressor, GradientBoostRegressor, and Depp Neural Network.
+
+Feature engineering was performed on the data to select, extract, and transform the relevant features. This was done because the performance of a machine learning model depends heavily on the quality and relevance of the features used.
+
+After feature engineering, the data was split into training and testing sets using the train-test-split tool from the scikit learn package. The training set was used to train the machine learning model to learn patterns in the data and make predictions, while the testing set was used to evaluate the performance of the model on unseen data.
+A linear method 
+
+Principal Component Analysis (PCA) was used to transform high-dimensional data into a lower-dimensional representation. This involved a linear transformation that seeks to find the directions of maximum variance in the data. PCA was chosen for this task because it is computationally efficient, can handle large datasets effectively, and is faster than other methods of dimensionality reduction.
+
+**Note**: The application of PCA resulted in the extraction of 42 components that explained more than 90% of the variance in the data. However, due to limitations in the processing unit of the computer, only 10 of these components were considered for further analysis.
+
+
+
+
+
+
+
 
